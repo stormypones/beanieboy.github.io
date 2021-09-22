@@ -16,7 +16,6 @@ p  {
   object {
     display: block;
     margin: 25px;
-    max-width: 100%;
     width: 500px;
     height: 500px;
   }
