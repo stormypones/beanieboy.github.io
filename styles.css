@@ -3,6 +3,7 @@ object {
   margin: auto;
   width: 500px;
   height: 500px;
+  position: fixed;
 }
 
 p  {
