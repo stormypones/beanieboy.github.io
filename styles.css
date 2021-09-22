@@ -11,3 +11,13 @@ p  {
   color: white;
   max-width: 100%;
 }
+
+@media all and (max-width: 675px) {
+
+ object {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+ }
+}
