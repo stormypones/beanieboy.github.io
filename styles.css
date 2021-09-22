@@ -11,15 +11,3 @@ p  {
   color: white;
   max-width: 100%;
 }
-
-@media all and (max-width: 675px) {
-
-.entry-image.attachment-post.gsfc-alignleft {
-
-   width: 100%!important;
-   max-width: none;
-   text-align: center;
-   margin-left: auto!important;
-   margin-right: auto!important;
-  }
-}
