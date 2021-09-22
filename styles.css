@@ -41,7 +41,7 @@ p  {
   object {
     display: block;
     margin: 15px;
-    max-width: 25%;
+    max-width: 100%;
     width: 250px;
     height: 250px;
   }
