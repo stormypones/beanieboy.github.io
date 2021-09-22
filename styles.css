@@ -40,7 +40,7 @@ p  {
 @media (min-width: 601px) {
   object {
     display: block;
-    margin: 15px;
+    margin: 75px;
     max-width: 100%;
     width: 250px;
     height: 250px;
