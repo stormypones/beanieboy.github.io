@@ -1,8 +1,9 @@
 object {
   display: block;
+  margin: auto;
+  max-width: 100%;
   width: 500px;
   height: 500px;
-  margin:auto;
 }
 
 p  {
@@ -11,12 +12,38 @@ p  {
   max-width: 100%;
 }
 
-@media all and (max-width: 675px) {
+@media (max-width: 600px) {
+  object {
+    display: block;
+    margin: 25px;
+    width: 500px;
+    height: 500px;
+  }
 
- object {
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: center;
- }
+  background-image {
+    max-width: 50%;
+  }
+
+  p  {
+    text-align: center;
+    color: white;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 601px) {
+  object {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+  }
+
+  p  {
+    text-align: center;
+    color: white;
+    max-width: 100%;
+  }
+
 }
