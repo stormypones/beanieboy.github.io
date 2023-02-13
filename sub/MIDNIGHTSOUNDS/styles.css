@@ -1,29 +1,50 @@
 #MIDNIGHT {
-  font-size: 1vw;
   font-family: 'B612 Mono', monospace;
   margin: auto;
   margin-bottom: 150px;
   text-align: center;
 }
+
 audio {
   margin: auto;
   background-color: #1C2D43;
 }
+
+body {
+  background: url("MSback.png");
+}
+
+background {
+  height: 100%;
+  width: 100%;
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+}
+
 object {
   display: block;
   margin: auto;
   max-width: 100%;
-  width: 500px;
-  height: 500px;
+  max-height: 100%;
 }
 
 p  {
   text-align: center;
   color: white;
-  font-size: 20px;
-  max-width: 39%;
-  margin-top: 250px;
+  font-size: 10px, 1vw;
+  max-width: 75%;
   margin: auto;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+  object {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+}
 }
 
 @media query (max-width: 600px){
@@ -44,10 +65,6 @@ p  {
     height: 500px;
   }
 
-  background-image {
-    max-width: 200%;
-    max-height: 200%;
-  }
 }
 
 
