@@ -1,3 +1,11 @@
+#MIDNIGHT {
+  font-size: 15px;
+  font-family: 'B612 Mono', monospace;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom:100px;
+  text-align: center;
+}
 object {
   display: block;
   margin: auto;
@@ -14,7 +22,9 @@ background-image {
 p  {
   text-align: center;
   color: white;
-  max-width: 25%;
+  font-size: 20px;
+  max-width: 39%;
+  margin-top: 250px;
   margin: auto;
 }
 
@@ -51,12 +61,6 @@ p  {
     max-width: 100%;
     max-height: 100%
   }
-  #MIDNIGHTSOUNDS {
-    font-size: 15px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 50px;
-    text-align: center;
-  }
+
 
 }
