@@ -6,6 +6,10 @@
   margin-bottom:100px;
   text-align: center;
 }
+audio {
+  margin: auto;
+  background-color: #1C2D43;
+}
 object {
   display: block;
   margin: auto;
