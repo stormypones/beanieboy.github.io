@@ -1,9 +1,8 @@
 #MIDNIGHT {
-  font-size: 15px;
+  font-size: 1vw;
   font-family: 'B612 Mono', monospace;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom:100px;
+  margin-bottom: 150px;
   text-align: center;
 }
 audio {
@@ -36,17 +35,6 @@ p  {
     height: 500px;
   }
 
-  background-image {
-    max-width: 50%;
-  }
-
-  p  {
-    text-align: center;
-    color: white;
-    max-width: 100%;
-  }
-}
-
 @media query (min-width: 601px) {
   object {
     display: block;
@@ -57,8 +45,8 @@ p  {
   }
 
   background-image {
-    max-width: 100%;
-    max-height: 100%
+    max-width: 200%;
+    max-height: 200%;
   }
 }
 
