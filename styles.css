@@ -14,9 +14,13 @@ object {
   height: 50px;
 }
 
+#FV1Z {
+  width: 350px;
+  height: 55px;
+}
+
 background-image {
-  max-width: 200%;
-  max-height: 200%;
+  background-size:auto;
 }
 
 p  {
