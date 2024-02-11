@@ -18,6 +18,12 @@ html {
   margin:0;
 }
 
+html,body {
+	scroll-behavior: smooth;
+	scroll-snap-type: smooth;
+    overflow-x: hidden;
+}
+
 audio {
   margin: auto;
   background-color: #1C2D43;

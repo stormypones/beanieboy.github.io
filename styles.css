@@ -4,6 +4,12 @@ object {
   max-width: 100%;
 }
 
+html,body {
+	scroll-behavior: smooth;
+	scroll-snap-type: smooth;
+    overflow-x: hidden;
+}
+
 #CD {
   width: 500px;
   height: 500px;
