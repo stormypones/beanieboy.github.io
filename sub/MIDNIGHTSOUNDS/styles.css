@@ -1,6 +1,11 @@
+@font-face {
+	font-family: DS-Digital;
+	src: url('DS-DIGII.TTF');
+}
 #MIDNIGHT {
-  font-family: 'B612 Mono', monospace;
+  font-family: 'DS-Digital', monospace;
   margin: auto;
+  font-size: 25px;
   margin-bottom: 150px;
   text-align: center;
 }

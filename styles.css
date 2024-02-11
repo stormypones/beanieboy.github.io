@@ -10,14 +10,21 @@ object {
   margin-top: 100px;
 }
 
+#BEANIE {
+  width: 250px;
+  height: 75px;
+  margin-bottom: 15px;
+}
+
 #MIDNIGHT {
   width: 250px;
   height: 50px;
+  margin-bottom: 10px;
 }
 
 #FV1Z {
   width: 350px;
-  height: 55px;
+  height: 60px;
   margin-bottom: 150px;
 }
 
@@ -29,6 +36,7 @@ p  {
   text-align: center;
   color: white;
   max-width: 100%;
+  margin-bottom: 35px;
 }
 
 @media query (max-width: 600px){
