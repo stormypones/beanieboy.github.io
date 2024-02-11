@@ -1,6 +1,12 @@
+@font-face {
+	font-family: DS-Digital; 
+	src: url('DS-DIGII.TTF');
+}
+
 #FV1Z {
-  font-family: 'B612 Mono', monospace;
+  font-family: 'DS-Digital', monospace;
   color: #97c44d;
+  font-size: 25px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 150px;
